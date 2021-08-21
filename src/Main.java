@@ -22,6 +22,7 @@ public class Main {
                 resultat = gennemsnitaftal / ++hvormangetal;
                 System.out.println("Dit Gennemsnit af din udregning giver = " + resultat);
                 }
+            // //////////////////// // // // /// // // // // //
     }
 }
 /*
