@@ -15,15 +15,12 @@ public class MainDifferentOptionWhileLoopPlusEkstraOpgave {
             System.out.println("Indtast venligt et nyt tal for at forsætte");
             String ch = scanner.nextLine();
             while (!ch.equalsIgnoreCase("stop" +
-                    !ch.equalsIgnoreCase("q") +
-                    !ch.equalsIgnoreCase("Q"))) {
+                    !ch.equalsIgnoreCase("q"))) {
                 String y1 = scanner.nextLine();
                 if (y1.equalsIgnoreCase("stop") && !isInteger(y1)) {
                     break;
                 } else if (y1.equalsIgnoreCase("q") && !isInteger(y1)) {
                     break;
-                } else if (y1.equalsIgnoreCase("Q") && !isInteger(y1)) {
-
                 } else if(!isInteger(y1)){
                    System.out.println("Det du skrev er hverken et 'stop' eller et 'tal'.");
                 } else if(isInteger(y1)) {
